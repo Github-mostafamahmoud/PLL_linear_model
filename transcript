@@ -1,0 +1,67 @@
+# Compile of VCO_tb_new1.sv was successful.
+# Compile of Accumulator.sv was successful with warnings.
+# Compile of clkdiveven (5).sv was successful.
+# Compile of DAC.sv was successful.
+# Compile of DLF.sv was successful.
+# Compile of DTC.sv was successful.
+# Compile of InPLL.sv was successful.
+# Compile of Integrator.sv was successful.
+# Compile of jitter_attenuator.sv was successful.
+# Compile of jitter_attenuator_tb.sv was successful.
+# Compile of Quant.sv was successful.
+# Compile of sigma.sv was successful.
+# Compile of sigma_internal.sv was successful.
+# Compile of sysDev_tb.sv was successful.
+# Compile of SysDiv.sv was successful.
+# Compile of TDC.sv was successful.
+# Compile of VCO_FLL.sv was successful.
+# Compile of VCO_new.sv was successful.
+# Compile of VCO_new1.sv was successful.
+# Compile of VCO_system.sv was successful.
+# Compile of VCO_system_tb.sv was successful.
+# Compile of VCO_tb_FLL.sv was successful.
+# 22 compiles, 0 failed with no errors.
+vsim -gui work.jiiter_attenuator_tb
+# vsim -gui work.jiiter_attenuator_tb 
+# Start time: 19:31:10 on Jun 17,2024
+# Loading sv_std.std
+# Loading work.jiiter_attenuator_tb
+# Loading work.jiiter_attenuator
+# Loading work.TDC
+# Loading work.DLF
+# Loading work.sysDiv
+# Loading work.DAC
+# Loading work.VCO_new
+# Loading work.clkdiveven
+# Loading work.Sigma_Delta_internal
+# Loading work.DTC
+# Loading work.Sigma_Delta
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (7) for port 'Dout'. The port definition is at: D:/Pearl_project/PLL_Modeling/final_JA/PLL__Modeling-main_new2_final_mostafa/TDC.sv(81).
+#    Time: 0 fs  Iteration: 0  Instance: /jiiter_attenuator_tb/attenuator/internalpll/tdc File: D:/Pearl_project/PLL_Modeling/final_JA/PLL__Modeling-main_new2_final_mostafa/SysDiv.sv Line: 22
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (7) for port 'IN'. The port definition is at: D:/Pearl_project/PLL_Modeling/final_JA/PLL__Modeling-main_new2_final_mostafa/DLF.sv(7).
+#    Time: 0 fs  Iteration: 0  Instance: /jiiter_attenuator_tb/attenuator/internalpll/dlf File: D:/Pearl_project/PLL_Modeling/final_JA/PLL__Modeling-main_new2_final_mostafa/SysDiv.sv Line: 24
+run 10 us
+# ** Error (suppressible): (vsim-8630) Infinity results from division operation.
+#    Time: 0 fs  Iteration: 0  Process: /jiiter_attenuator_tb/attenuator/internalpll/#ASSIGN#44 File: D:/Pearl_project/PLL_Modeling/final_JA/PLL__Modeling-main_new2_final_mostafa/SysDiv.sv Line: 44
+run 0.5 ms
+add wave -position insertpoint \
+sim:/jiiter_attenuator_tb/attenuator/internalpll/vco/Vcont \
+
+
+
+run 2ms
+# Compile of SysDiv.sv was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.sysDiv
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (7) for port 'Dout'. The port definition is at: D:/Pearl_project/PLL_Modeling/final_JA/PLL__Modeling-main_new2_final_mostafa/TDC.sv(81).
+#    Time: 0 fs  Iteration: 0  Instance: /jiiter_attenuator_tb/attenuator/internalpll/tdc File: D:/Pearl_project/PLL_Modeling/final_JA/PLL__Modeling-main_new2_final_mostafa/SysDiv.sv Line: 22
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (7) for port 'IN'. The port definition is at: D:/Pearl_project/PLL_Modeling/final_JA/PLL__Modeling-main_new2_final_mostafa/DLF.sv(7).
+#    Time: 0 fs  Iteration: 0  Instance: /jiiter_attenuator_tb/attenuator/internalpll/dlf File: D:/Pearl_project/PLL_Modeling/final_JA/PLL__Modeling-main_new2_final_mostafa/SysDiv.sv Line: 24
+run 2ms
+# ** Error (suppressible): (vsim-8630) Infinity results from division operation.
+#    Time: 0 fs  Iteration: 0  Process: /jiiter_attenuator_tb/attenuator/internalpll/#ASSIGN#44 File: D:/Pearl_project/PLL_Modeling/final_JA/PLL__Modeling-main_new2_final_mostafa/SysDiv.sv Line: 44
+run 2ms
+2 ms
+# invalid command name "2"
+run 2ms

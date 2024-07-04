@@ -1,0 +1,33 @@
+`timescale 1ns/1ps
+module clkdiveven(vco_out,x,clk_out);
+input reg vco_out;
+input  x;
+output reg clk_out;
+parameter integer N=64; 
+
+
+
+integer pos_counter=0;
+integer neg_counter=0;
+integer Divisor_by_2;
+
+always @ (posedge vco_out)
+
+begin
+ Divisor_by_2=(N+x)/2;
+ pos_counter<=(pos_counter+1)%(N+x);
+end
+always@(negedge vco_out)
+begin
+ neg_counter<=(neg_counter+1)%(N+x);
+end
+
+always@(vco_out)
+begin
+if (((N+x)%2) == 0)//means N is even
+clk_out <= ( neg_counter >= (Divisor_by_2)) ? 1'b1 : 1'b0;
+else //(N+x) is odd
+clk_out <= (( pos_counter > (Divisor_by_2)) || ( neg_counter > (Divisor_by_2))) ? 1'b1 : 1'b0; 
+end
+
+endmodule

@@ -1,0 +1,85 @@
+{G:/Tarek/Graduation project/System Verilog/System_me/Digital PLL/VCO_new.sv} {1 {vlog -work work -vopt -sv -stats=none {G:/Tarek/Graduation project/System Verilog/System_me/Digital PLL/VCO_new.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module VCO_new
+-- Compiling module VCO_neww
+
+Top level modules:
+	VCO_new
+	VCO_neww
+
+} {} {}} {G:/Tarek/Graduation project/System Verilog/System_me/Digital PLL/sigma.sv} {1 {vlog -work work -vopt -sv -stats=none {G:/Tarek/Graduation project/System Verilog/System_me/Digital PLL/sigma.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package sigma_sv_unit
+-- Compiling module Sigma_Delta
+
+Top level modules:
+	Sigma_Delta
+
+} {} {}} {G:/Tarek/Graduation project/System Verilog/System_me/Digital PLL/Quant.sv} {1 {vlog -work work -vopt -sv -stats=none {G:/Tarek/Graduation project/System Verilog/System_me/Digital PLL/Quant.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package Quant_sv_unit
+-- Compiling module Quant_1b
+
+Top level modules:
+	Quant_1b
+
+} {} {}} {G:/Tarek/Graduation project/System Verilog/System_me/Digital PLL/sysDiv.sv} {1 {vlog -work work -vopt -sv -stats=none {G:/Tarek/Graduation project/System Verilog/System_me/Digital PLL/sysDiv.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module sysDiv
+
+Top level modules:
+	sysDiv
+
+} {} {}} {G:/Tarek/Graduation project/System Verilog/System_me/Digital PLL/DLF.sv} {1 {vlog -work work -vopt -sv -stats=none {G:/Tarek/Graduation project/System Verilog/System_me/Digital PLL/DLF.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module DLF
+
+Top level modules:
+	DLF
+
+} {} {}} {G:/Tarek/Graduation project/System Verilog/System_me/Digital PLL/TDC.sv} {1 {vlog -work work -vopt -sv -stats=none {G:/Tarek/Graduation project/System Verilog/System_me/Digital PLL/TDC.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module TDC
+
+Top level modules:
+	TDC
+
+} {} {}} {G:/Tarek/Graduation project/System Verilog/System_me/Digital PLL/sysDev_tb.sv} {1 {vlog -work work -vopt -sv -stats=none {G:/Tarek/Graduation project/System Verilog/System_me/Digital PLL/sysDev_tb.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module sysDev_tb
+
+Top level modules:
+	sysDev_tb
+
+} {} {}} {G:/Tarek/Graduation project/System Verilog/System_me/Digital PLL/Integrator.sv} {1 {vlog -work work -vopt -sv -stats=none {G:/Tarek/Graduation project/System Verilog/System_me/Digital PLL/Integrator.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package Integrator_sv_unit
+-- Compiling module Integ_delay
+-- Compiling module Integ
+
+Top level modules:
+	Integ_delay
+	Integ
+
+} {} {}} {G:/Tarek/Graduation project/System Verilog/System_me/Digital PLL/Divider.sv} {1 {vlog -work work -vopt -sv -stats=none {G:/Tarek/Graduation project/System Verilog/System_me/Digital PLL/Divider.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module clkdiveven
+
+Top level modules:
+	clkdiveven
+
+} {} {}} {G:/Tarek/Graduation project/System Verilog/System_me/Digital PLL/clkdiveven.sv} {1 {vlog -work work -vopt -sv -stats=none {G:/Tarek/Graduation project/System Verilog/System_me/Digital PLL/clkdiveven.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module clkdiveven_1
+
+Top level modules:
+	clkdiveven_1
+
+} {} {}} {G:/Tarek/Graduation project/System Verilog/System_me/Digital PLL/DAC.sv} {1 {vlog -work work -vopt -sv -stats=none {G:/Tarek/Graduation project/System Verilog/System_me/Digital PLL/DAC.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module DAC
+
+Top level modules:
+	DAC
+
+} {} {}}

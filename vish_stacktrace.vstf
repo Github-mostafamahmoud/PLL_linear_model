@@ -1,0 +1,128 @@
+# Current time Sat Feb 03 17:04:37 2024
+# ModelSim - Intel FPGA Edition Stack Trace
+# Program = vish
+# Id = "2020.1"
+# Version = "2020.02"
+# Date = "Feb 28 2020"
+# Platform = win32pe
+
+Exception c0000005 has occurred at address 71c4c952. Traceback:
+# 0    0x71c4c952: 'TkSetWindowMenuBar + 0x59b2'
+# 1    0x71c4cbea: 'TkSetWindowMenuBar + 0x5c4a'
+# 2    0x71f3653b: 'TclServiceIdle + 0x4b'
+# 3    0x00703c68: 'WlfContextItem::`vector deleting destructor' + 0x89c8'
+# 4    0x00525a56: 'EnumDispProc + 0x2fed6'
+# 5    0x00525b40: 'EnumDispProc + 0x2ffc0'
+# 6    0x71e71fae: 'TclInvokeStringCommand + 0xbe'
+# 7    0x71e739f1: 'TclNREvalObjv + 0x3e1'
+# 8    0x71e73a49: 'TclNRRunCallbacks + 0x49'
+# 9    0x71e7563c: 'Tcl_EvalObjEx + 0x2c'
+# 10   0x72f00400: 'Itcl_EvalMemberCode + 0x300'
+# 11   0x0264d270: '<unknown (@0x264d270)>'
+# 12   0x71e739f1: 'TclNREvalObjv + 0x3e1'
+StackWalk failed 299
+# End of Stack Trace
+
+# Current time Sun Feb 04 18:36:25 2024
+# ModelSim - Intel FPGA Edition Stack Trace
+# Program = vish
+# Id = "2020.1"
+# Version = "2020.02"
+# Date = "Feb 28 2020"
+# Platform = win32pe
+
+Exception c0000005 has occurred at address 0056c2b7. Traceback:
+# 0    0x0056c2b7: 'WinMain + 0x12f27'
+# 1    0x005b46c6: 'WinMain + 0x5b336'
+# 2    0x00576422: 'WinMain + 0x1d092'
+# 3    0x0057a35b: 'WinMain + 0x20fcb'
+# 4    0x6dec1fae: 'TclInvokeStringCommand + 0xbe'
+# 5    0x6dec39f1: 'TclNREvalObjv + 0x3e1'
+# 6    0x6dec3a49: 'TclNRRunCallbacks + 0x49'
+# 7    0x6dec563c: 'Tcl_EvalObjEx + 0x2c'
+# 8    0x721728a6: 'Itk_ArchetypeInit + 0x1466'
+# 9    0x02648324: '<unknown (@0x2648324)>'
+# 10   0x727d1441: 'Itcl_ExecMethod + 0x1c1'
+# 11   0x6dec39f1: 'TclNREvalObjv + 0x3e1'
+StackWalk failed 299
+# End of Stack Trace
+
+# Current time Sun Feb 04 18:36:31 2024
+# ModelSim - Intel FPGA Edition Stack Trace
+# Program = vish
+# Id = "2020.1"
+# Version = "2020.02"
+# Date = "Feb 28 2020"
+# Platform = win32pe
+
+Exception c0000005 has occurred at address 72175fd2. Traceback:
+# 0    0x72175fd2: 'Itk_ArchetypeInit + 0x4b92'
+# 1    0x727d02f9: 'Itcl_EvalMemberCode + 0x1f9'
+# 2    0x727d1441: 'Itcl_ExecMethod + 0x1c1'
+# 3    0x6dec39f1: 'TclNREvalObjv + 0x3e1'
+StackWalk failed 299
+# End of Stack Trace
+
+# Current time Sun Feb 04 18:36:31 2024
+# ModelSim - Intel FPGA Edition Stack Trace
+# Program = vish
+# Id = "2020.1"
+# Version = "2020.02"
+# Date = "Feb 28 2020"
+# Platform = win32pe
+
+Exception c0000005 has occurred at address 72175fd2. Traceback:
+# 0    0x72175fd2: 'Itk_ArchetypeInit + 0x4b92'
+# 1    0x727d02f9: 'Itcl_EvalMemberCode + 0x1f9'
+# 2    0x727d1441: 'Itcl_ExecMethod + 0x1c1'
+# 3    0x6dec39f1: 'TclNREvalObjv + 0x3e1'
+StackWalk failed 299
+# End of Stack Trace
+
+# Current time Sun Feb 04 18:36:31 2024
+# ModelSim - Intel FPGA Edition Stack Trace
+# Program = vish
+# Id = "2020.1"
+# Version = "2020.02"
+# Date = "Feb 28 2020"
+# Platform = win32pe
+
+Exception c0000005 has occurred at address 72175fd2. Traceback:
+# 0    0x72175fd2: 'Itk_ArchetypeInit + 0x4b92'
+# 1    0x727d02f9: 'Itcl_EvalMemberCode + 0x1f9'
+# 2    0x727d1441: 'Itcl_ExecMethod + 0x1c1'
+# 3    0x6dec39f1: 'TclNREvalObjv + 0x3e1'
+StackWalk failed 299
+# End of Stack Trace
+
+# Current time Tue Feb 06 13:05:03 2024
+# ModelSim - Intel FPGA Edition Stack Trace
+# Program = vish
+# Id = "2020.1"
+# Version = "2020.02"
+# Date = "Feb 28 2020"
+# Platform = win32pe
+
+Exception c0000005 has occurred at address 6dddc952. Traceback:
+# 0    0x6dddc952: 'TkSetWindowMenuBar + 0x59b2'
+# 1    0x6dddcbea: 'TkSetWindowMenuBar + 0x5c4a'
+# 2    0x6df8653b: 'TclServiceIdle + 0x4b'
+# 3    0x00703c68: 'WlfContextItem::`vector deleting destructor' + 0x89c8'
+# 4    0x00525a56: 'EnumDispProc + 0x2fed6'
+# 5    0x00525b40: 'EnumDispProc + 0x2ffc0'
+# 6    0x6dec1fae: 'TclInvokeStringCommand + 0xbe'
+# 7    0x6dec39f1: 'TclNREvalObjv + 0x3e1'
+# 8    0x6dec3a49: 'TclNRRunCallbacks + 0x49'
+# 9    0x6dec4ef9: 'Tcl_EvalEx + 0x8b9'
+# 10   0x6dec6384: 'Tcl_GlobalEval + 0x24'
+# 11   0x004f88ac: 'EnumDispProc + 0x2d2c'
+# 12   0x004f9337: 'EnumDispProc + 0x37b7'
+# 13   0x004f72f9: 'EnumDispProc + 0x1779'
+# 14   0x6dec1fae: 'TclInvokeStringCommand + 0xbe'
+# 15   0x6dec39f1: 'TclNREvalObjv + 0x3e1'
+# 16   0x6dec3a49: 'TclNRRunCallbacks + 0x49'
+# 17   0x6dec563c: 'Tcl_EvalObjEx + 0x2c'
+# 18   0x005516d7: 'EnumDispProc + 0x5bb57'
+StackWalk failed 299
+# End of Stack Trace
+
